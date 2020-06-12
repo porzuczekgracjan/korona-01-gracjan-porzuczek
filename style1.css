@@ -1,0 +1,72 @@
+*{
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+.kalku {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 700px;
+    background: grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.num {
+    width: 30%;
+    height: 100px;
+    background: lightgreen;
+    font-style: italic;
+    font-size: 50px;
+}
+.ekrany {
+    align-content: flex-end;
+}
+.ekr1 {
+    justify-content: flex-start;
+    width: 90px;
+    height: 70px;
+    background: lightblue;
+    font-size: 70px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 6px;
+}
+.ekr2 {
+    justify-content: flex-start;
+    width: 80px;
+    height: 70px;
+    background: lightblue;
+    font-size: 70px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 6px;
+}
+.ekr3 {
+    justify-content: flex-start;
+    width: 90px;
+    height: 70px;
+    background: lightblue;
+    font-size: 70px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 6px;
+}
+.ekr4 {
+    justify-content: flex-start;
+    width: 90px;
+    height: 70px;
+    background: lightblue;
+    font-size: 70px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.tyt {
+    position: relative;
+    color: white;
+    font-size: 60px;
+    top: 40px;
+}

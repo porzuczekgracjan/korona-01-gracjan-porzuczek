@@ -1,0 +1,14 @@
+.status {
+    height: 4vh;
+    width: 0%;
+    background: steelblue;
+    transition: .6s linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.body, html {
+    height: 1000%;
+    background-image: linear-gradient(45deg ,red 0, orange 100%);
+    margin: 0;
+}
